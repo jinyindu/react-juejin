@@ -1,0 +1,48 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: url('../../assets/images/launch_bcg.png') no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  background-size: 100% 100%;
+}
+.container .top,
+.container .bottom {
+  position: relative;
+  z-index: 2;
+}
+.container .top {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 52px;
+  color: #000;
+  font-weight: 300;
+}
+.container .top .logo {
+  width: 200px;
+  margin-bottom: 40px;
+}
+.container .top .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.container .bottom img {
+  width: 580px;
+}

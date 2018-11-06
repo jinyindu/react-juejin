@@ -1,0 +1,13 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": "react-app",
+  "rules": {
+    "eqeqeq": "off",
+    "no-script-url": "off",
+    "jsx-a11y/anchor-has-content": "off",
+    "jsx-a11y/alt-text": "off"
+  }
+}

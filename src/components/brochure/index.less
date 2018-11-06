@@ -1,0 +1,54 @@
+.list {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #efefef;
+    padding: 20px 30px;
+    background: #fff;
+    color: #666666;
+  }
+  .list:last-child {
+    border-bottom: none;
+  }
+  .list .info {
+    height: 182px;
+    flex: 1;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .list .poster {
+    width: 130px;
+    height: 182px;
+    box-shadow: 3px 4px 12px 0 rgba(0,0,0,.2);
+  }
+  .list .title {
+    font-size: 30px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  .list .author {
+    font-size: 24px;
+  }
+  .list .others {
+    font-size: 22px;
+    color: #9999;
+  }
+  .list .others .isFinished {
+    color: rgb(246, 118, 4);
+  }
+  .list .price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #3281ff;
+    font-size: 24px;
+    font-weight: 500;
+    width: 130px;
+    height: 60px;
+    border-radius: 30px;
+    background: rgb(241, 247, 254);
+  }

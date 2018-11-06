@@ -1,0 +1,18 @@
+.feidian-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #efefef;
+  height: 80px;
+  color: #999;
+  font-size: 28px;
+}
+.feidian-footer img {
+  width: 36px;
+  height: 36px;
+  margin-right: 12px;
+}
+.feidian-footer .i {
+  display: flex;
+  align-items: center;
+}

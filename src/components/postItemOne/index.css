@@ -1,0 +1,61 @@
+.hot .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #efefef;
+  padding: 0 30px;
+  background: #fff;
+  color: #000;
+}
+.hot .item:last-child {
+  border-bottom: none;
+}
+.hot .item .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 215px;
+  padding: 20px 20px 10px 0;
+  box-sizing: border-box;
+}
+.hot .graphics.item .content {
+  height: 160px;
+}
+.hot .item .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hot .item .inset {
+  width: 100px;
+  height: 100px;
+}
+.hot .content .title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.hot .labels {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  color: #abb4bf;
+  margin-right: 20px;
+}
+.hot .labels .label {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #abb4bf;
+  margin-right: 20px;
+}
+.hot .label img {
+  width: 30px;
+  height: 30px;
+}

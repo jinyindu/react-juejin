@@ -1,0 +1,94 @@
+.feidian-top .user {
+  display: flex;
+  padding: 20px 30px;
+}
+.feidian-top .user .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.feidian-top .user .others {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.feidian-top .user .others .l {
+  flex: 1;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.feidian-top .user .others .jobtitle {
+  font-size: 24px;
+  color: #999;
+}
+.feidian-top .more {
+  width: 24px;
+  height: 24px;
+}
+.feidian-top .content {
+  display: block;
+  margin: 20px 30px;
+  word-break: break-all;
+  font-size: 30px;
+}
+.feidian-top .content.intro {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+.feidian-top .pictures {
+  padding: 0 30px 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.feidian-top .picture img {
+  width: 100%;
+  border: 1px solid #efefef;
+  display: block;
+}
+.feidian-top .topic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px 20px;
+  padding: 20px 30px;
+  background: #F4F6F9;
+  border-radius: 4px;
+}
+.feidian-top .topic .desc {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  padding-right: 30px;
+}
+.feidian-top .topic .url {
+  font-size: 22px;
+  color: #999;
+}
+.feidian-top .topic img {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.feidian-top .tag {
+  font-size: 22px;
+  margin: 0 30px 20px;
+  padding: 0 20px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #3281ff;
+  border: 1px solid #3281ff;
+  border-radius: 18px;
+}
