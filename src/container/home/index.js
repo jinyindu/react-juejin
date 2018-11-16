@@ -165,7 +165,7 @@ class Home extends React.Component{
                 {
                     this.state.hotRecomment.length && this.state.hotRrecommendShow 
                     ? 
-                    <div className="hot card">
+                    <div className="hot card" SKELETON>
                         <div className="btitle" onClick={this.refreshHot}>
                             <div className='l'>
                                 <img className='icon' src={require('../../assets/images/ic_hot_home.png')}></img>
@@ -187,7 +187,6 @@ class Home extends React.Component{
                         loadMoreFn={this.loadMoreData.bind(this)}
                     ></LoadMore> : ''
                 }
-                
             </div>
         )
     }
