@@ -176,8 +176,6 @@ module.exports = {
 
           },
           loader: require.resolve('eslint-loader'),
-        }, {
-          loader: require.resolve('ehome-react-skeleton')
         }],
         include: paths.appSrc,
       },

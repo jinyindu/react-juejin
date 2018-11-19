@@ -142,6 +142,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.1.2",
     "antd-mobile": "^2.2.5",
+    "page-skeleton-webpack-plugin": "^0.10.12",
     "whatwg-fetch": "^3.0.0"
   }
 }
