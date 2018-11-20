@@ -5,7 +5,6 @@ import { isLogin } from '../../utils/utils'
 import * as brochure from '../../actions/brochure/brochure.action'
 
 import './index.less'
-import { compose } from 'C:/Users/Administrator/AppData/Local/Microsoft/TypeScript/3.1/node_modules/redux';
 
 @connect(
     state => state.brochure,
